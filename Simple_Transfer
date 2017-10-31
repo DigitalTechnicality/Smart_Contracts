@@ -1,0 +1,9 @@
+pragma solidity ^0.4.0;
+contract Iterate {
+function SendFunds (address _x, address _y) {
+    if (_x.balance == _y.balance) {
+        _x.transfer(20);
+    }
+}
+    
+}
